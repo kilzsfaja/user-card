@@ -1,0 +1,60 @@
+body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container {
+  background-color: lightslategrey;
+  width: 800px;
+  height: 600px;
+  margin: auto auto;
+  position: absolute;
+  border: 2px solid black;
+}
+
+.header {
+  width: 800px;
+  height: 200px;
+  background-color: darkgrey;
+  margin: 0 auto;
+  position: relative;
+}
+
+.profilePic {
+  width: 150px;
+  height: 150px;
+}
+
+.movePic {
+  position: absolute;
+  border-radius: 50%;
+  top: 125px;
+  left: 50px;
+}
+
+.textBox {
+  position: absolute;
+  top: 280px;
+  left: 50px;
+}
+
+.marker {
+  width: 20px;
+  height: 30px;
+}
+
+.flex {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 1rem;
+}
+
+.gear {
+  width: 20px;
+  height: 20px;
+}
+
+.editprofile{
+  text-decoration: underline;
+  color: blue
+}
